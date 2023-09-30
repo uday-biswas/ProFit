@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "image": "https://ik.imagekit.io/bytebenders/people01.jpg",
+        "testimonial": "ProFit helped me achieve my fitness goals like never before. I am now healthier and stronger than ever!"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "image": "https://ik.imagekit.io/bytebenders/people02.jpg",
+        "testimonial": "The training programs and nutrition guides on this website are top-notch. Highly recommended!"
+    },
+    {
+        "id": 3,
+        "name": "Sarah Johnson",
+        "image": "https://ik.imagekit.io/bytebenders/people03.jpg",
+        "testimonial": "I lost 30 pounds in just three months thanks to ProFit. It's been a life-changing journey"
+    },
+    {
+        "id": 4,
+        "name": "Michael Brown",
+        "image": "https://ik.imagekit.io/bytebenders/people04.jpg",
+        "testimonial": "I used to struggle with my self-esteem, but with the support of ProFit's community, I gained confidence and a new body."
+    },
+    {
+        "id": 5,
+        "name": "Emily Davis",
+        "image": "https://ik.imagekit.io/bytebenders/people05.jpg",
+        "testimonial": "ProFit's workout plans are challenging yet effective. I'm now in the best shape of my life, and it feels amazing!"
+    },
+    {
+        "id": 6,
+        "name": "Alex Turner",
+        "image": "https://ik.imagekit.io/bytebenders/people06.jpg",
+        "testimonial": "I joined ProFit a year ago, and I've never looked back. The results speak for themselves, and I'm grateful for this platform"
+    },
+    {
+        "id": 7,
+        "name": "Olivia Williams",
+        "image": "https://ik.imagekit.io/bytebenders/people07.jpg",
+        "testimonial": "As a busy professional, I appreciate the flexibility of ProFit's programs. I've improved my fitness while managing a hectic schedule."
+    },
+    {
+        "id": 8,
+        "name": "Daniel White",
+        "image": "https://ik.imagekit.io/bytebenders/people08.jpg",
+        "testimonial": "ProFit's nutrition guides taught me the importance of balanced eating. My energy levels have soared, and I'm happier than ever."
+    },
+    {
+        "id": 9,
+        "name": "Laura Anderson",
+        "image": "https://ik.imagekit.io/bytebenders/people09.jpg",
+        "testimonial": "I never thought I could run a marathon, but with the guidance of ProFit's trainers, I crossed the finish line"
+    },
+    {
+        "id": 10,
+        "name": "Ryan Mitchell",
+        "image": "https://ik.imagekit.io/bytebenders/people10.jpg",
+        "testimonial": "ProFit's supportive community keeps me motivated. I've made lifelong friends while on my fitness journey."
+    }
+]

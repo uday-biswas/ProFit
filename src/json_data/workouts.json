@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Full-Body Power Workout",
+        "image": "https://ik.imagekit.io/bytebenders/gym_01.jpg",
+        "description": "Build strength and explosive power with this full-body workout program. Incorporate compound exercises like squats, deadlifts, and power cleans to maximize your gains. "
+    },
+    {
+        "id": 2,
+        "title": "HIIT Cardio Blast",
+        "image": "https://ik.imagekit.io/bytebenders/gym_02.jpg",
+        "description": " Burn calories and improve cardiovascular fitness with high-intensity interval training (HIIT). This program combines short bursts of intense exercise with brief rest periods for an effective fat-burning workout."
+    },
+    {
+        "id": 3,
+        "title": "Lean Muscle Gain Routine",
+        "image": "https://ik.imagekit.io/bytebenders/gym_03.jpg",
+        "description": "Sculpt a lean and muscular physique with this workout plan. Focus on hypertrophy (muscle growth) through a combination of resistance training and targeted exercises."
+    },
+    {
+        "id": 4,
+        "title": "Core Strengthening Circuit",
+        "image": "https://ik.imagekit.io/bytebenders/gym_04.jpg",
+        "description": "Develop a strong and stable core with this circuit-style workout. Strengthen your abs, obliques, and lower back muscles for better posture and functional strength."
+    },
+    {
+        "id": 5,
+        "title": "Flexibility and Mobility Yoga",
+        "image": "https://ik.imagekit.io/bytebenders/gym_05.jpg",
+        "description": "Enhance flexibility and mobility through yoga practice. This program combines stretching, balance, and mindfulness to improve your overall range of motion."
+    },
+    {
+        "id": 6,
+        "title": "Bodyweight Challenge",
+        "image": "https://ik.imagekit.io/bytebenders/gym_06.jpg",
+        "description": "Get fit anywhere, anytime with bodyweight exercises. This program requires no equipment and includes exercises like push-ups, squats, and planks for a total-body workout."
+    },
+    {
+        "id": 7,
+        "title": "High-Intensity Plyometrics",
+        "image": "https://ik.imagekit.io/bytebenders/gym_07.jpg",
+        "description": "Boost your athletic performance with plyometric exercises. Improve your explosiveness and agility by incorporating jumps, hops, and explosive movements into your routine."
+    },
+    {
+        "id": 8,
+        "title": "CrossFit Inspired WOD",
+        "image": "https://ik.imagekit.io/bytebenders/gym_08.jpg",
+        "description": "Experience the intensity of CrossFit-style workouts. Challenge yourself with a variety of functional movements and high-intensity workouts that test your endurance and strength."
+    },
+    {
+        "id": 9,
+        "title": "Endurance Running Plan",
+        "image": "https://ik.imagekit.io/bytebenders/gym_09.jpg",
+        "description": "Build endurance and conquer long-distance running goals. This program includes progressive training runs and tips for improving your stamina."
+    },
+    {
+        "id": 10,
+        "title": "Posture and Post-Workout Stretching",
+        "image": "https://ik.imagekit.io/bytebenders/gym_10.jpg",
+        "description": "Focus on recovery and posture with this stretching routine. Relieve muscle tension, reduce the risk of injury, and improve your posture with targeted stretches."
+    }
+]
