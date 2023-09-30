@@ -27,4 +27,8 @@ export const navbar_data = [
         id: 7,
         name: 'Sign Up',
     },
+    {
+        id: 8,
+        name: 'Explore',
+    },
 ];

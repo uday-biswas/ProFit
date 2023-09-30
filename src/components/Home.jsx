@@ -1,6 +1,5 @@
 import './Home.css';
 import { useState } from 'react';
-import workouts from '../json_data/workouts.json';
 import WorkOutCards from './WorkOutCards';
 import Footer from './Footer';
 import { toast, ToastContainer } from 'react-toastify';
@@ -10,7 +9,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import successStories from '../json_data/successStories.json';
 
 const Home = (props) => {
-    const response = workouts;
+    const response = props.workouts;
 
     const notify = () => toast("🦄 Wow so easy!");
 
@@ -37,7 +36,7 @@ const Home = (props) => {
                     <h2 className="text-3xl text-white font-semibold">Featured Workouts</h2>
                     <div className="flex flex-wrap justify-center mt-6 space-x-4">
                         {response.slice(0, 4).map((workout) => {
-                            return <WorkOutCards key={workout.id} {...workout} />
+                            return <WorkOutCards key={workout.id} {...workout} explore={props.explore} />
                         })}
                     </div>
                 </div>
