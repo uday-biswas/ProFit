@@ -71,7 +71,7 @@ const Home = (props) => {
                 pauseOnHover
                 theme="light"
             />
-            <Footer className='foot'>Made with ❤️ by Taarzan</Footer>
+            <Footer className='foot'>Made with ❤️ by ProFit</Footer>
         </div>
     )
 }

@@ -2,61 +2,858 @@
     {
         "id": 1,
         "title": "Full-Body Power Workout",
+        "tag": "daily",
         "image": "https://ik.imagekit.io/bytebenders/gym_01.jpg",
-        "description": "Build strength and explosive power with this full-body workout program. Incorporate compound exercises like squats, deadlifts, and power cleans to maximize your gains. "
+        "description": "Build strength and explosive power with this full-body workout program. Incorporate compound exercises like squats, deadlifts, and power cleans to maximize your gains. ",
+        "exercises": [
+            {
+                "name": "Squats (4 sets of 8 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697345523/squats_kdaqhe.webp",
+                "description": "Stand with your feet shoulder-width apart. Bend your knees and lower your hips until your thighs are parallel to the floor. Pause, then push through your heels to return to the starting position."
+            },
+            {
+                "name": "Deadlifts (4 sets of 8 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697314634/deadlifts_fkgenv.jpg",
+                "description": "1. Start with the feet shoulder width apart (foot stance may vary depending on variation). Feet are under the bar with the bar close to the shins \n2. Lower the torso to the bar by pushing the buttocks back and hinging at the waist. Then grasp the bar in your hands. \n3. Squeeze the shoulder blades together to engage the lats, followed by engaging the core musculature. Make sure to keep the hips lower than the shoulders and the head/neck in a neutral position. \n4. Push through the feet and pull the weight up. Think about pushing the floor away, rather than lifting the weight up. The bar should stay relatively close to the shins. Squeeze the glutes to lock the top of the lift. \n5. Lower to the floor the the reverse manner."
+            },
+            {
+                "name": "Power Cleans (4 sets of 8 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697482630/power_clean_zastk8.jpg",
+                "description": "Stand with your feet hip-width apart. Bend your knees and lower your hips until your thighs are parallel to the floor. Pause, then push through your heels to return to the starting position."
+            },
+            {
+                "name": "Bench Press (4 sets of 8 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697309559/bench_press_k5iuj0.jpg",
+                "description": "1. Draw your shoulder blades back behind you to keep from pressing with rounded shoulders.\n 2. Grasp the barbell using an overhand grip, placing your thumbs on the outside of your closed fist. Your arms are slightly wider than shoulder-width apart and the angle of your upper arms is about 45 degrees to the body.\n3. Remove the barbell from the rack, locking your elbows. (Don't move the bar in an arc from the rack directly to the chest position.)\n4. Inhale while lowering the bar to your chest, at the nipple line.\n5. Exhale as you press the bar above your chest, extending your arms. Don't watch the bar—focus on the ceiling.\n6. Lower the bar so it is just above your chest. This is the starting position for the next bench press."
+            },
+            {
+                "name": "Pull-Ups (4 sets of 8 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697317369/pull-ups_yt4all.jpg",
+                "description": "Exhale while pulling yourself up so your chin is level with the bar. Pause at the top. Lower yourself (inhaling as you go down) until your elbows are straight."
+            },
+            {
+                "name": "Overhead Press (4 sets of 8 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697347269/overhead_press_erok5c.jpg",
+                "description": "1. Stand with the bar on your front shoulders, and your hands next to your shoulders \n2. Press the bar over your head, until it's balanced over your shoulders and mid-foot \n3. Lock your elbows at the top, and shrug your shoulders to the ceiling. \n4. Hold the bar for a second at the top. Then lower it back to your front shoulders and repeat."
+            },
+            {
+                "name": "Barbell Curls (4 sets of 8 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697343835/barbell-curl_gwttbi.jpg",
+                "description": "1. Stand with your feet about shoulder-width apart, holding the bar, using a shoulder-width grip. \n2. Squeeze your glutes, abs, and shoulder blades. Keep your torso tight. Curl the weight up, moving only at the elbows. \n3. Squeeze your biceps at the top for a split second, then lower the weight back down."
+            },
+            {
+                "name": "Tricep Extensions (4 sets of 8 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697483006/Tricep_Extension_pyptcr.webp",
+                "description": "1. Lift the dumbbell directly overhead. Ensure the head stays aligned over the chest, the core remains engaged, and the shoulders are relaxed. \n2. Extend both arms fully, then exhale and slowly lower the weight, bringing the weight behind the head by bending at the elbows. Be sure the chest stays aligned over the hips and the back does not arch. \n3. Inhale and reverse the movement once you reach a 90-degree bend at the elbow or slightly further, lifting the weight back to the starting position. The weight should not touch the back of the head when it is in its lowest position."
+            }
+        ]
     },
     {
         "id": 2,
         "title": "HIIT Cardio Blast Exercises",
+        "tag": "daily",
         "image": "https://ik.imagekit.io/bytebenders/gym_02.jpg",
-        "description": " Burn calories and improve cardiovascular fitness with high-intensity interval training (HIIT). This program combines short bursts of intense exercise with brief rest periods for an effective fat-burning workout."
+        "description": " Burn calories and improve cardiovascular fitness with high-intensity interval training (HIIT). This program combines short bursts of intense exercise with brief rest periods for an effective fat-burning workout.",
+        "exercises": [
+                        {
+                            "name": "Sprint Intervals (4 sets)",
+                            "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697288218/running_ssxo5f.png",
+                            "description": "Run at a fast pace for 30 seconds, then walk for 15 seconds. Repeat for 4 sets."
+                        },
+                        {
+                            "name": "Burpees (3 sets of 10 reps)",
+                            "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697287512/burpees_revlvz.jpg",
+                            "description": " place the palms of the hands on the floor in front of the feet, jump back into a push-up position, in some cases completes one push-up, return to the squat position, and then jump up into the air while extending the arms overhead."    
+                        },
+                        {
+                            "name": "High Knees (3 sets of 60 seconds)",
+                            "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697288785/high_knees_jstsip.jpg",
+                            "description": "Run in place, bringing your knees up to your chest as high as you can. Repeat for 30 seconds."
+                        },
+                        {
+                            "name": "Mountain Climbers (3 sets of 60 seconds)",
+                            "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697290514/mountain_climbers_ye1skc.jpg",
+                            "description": "an exercise in which you start with your hands and feet on the floor and your legs stretched out, and then bring each leg in turn up towards your chest"
+                        },
+                        {
+                            "name": "jumping Lunges (3 sets of 60 seconds)",
+                            "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697291188/jumping_lunge_bbnp5u.jpg",
+                            "description": "Jump up, quickly switching the position of your feet while mid-air so your right leg moves back behind you and your left leg comes forward. To help you move explosively, propel your arms into the air while you jump. Gently land back on the floor in a basic lunge position with the opposite leg forward."
+                        },
+                        {
+                            "name": "Tuck Jumps (3 sets of 60 seconds)",
+                            "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697292572/tuck_jump_mbla2e.jpg",
+                            "description": " place the palms of the hands on the floor in front of the feet, jump back into a push-up position, in some cases completes one push-up, return to the squat position, and then jump up into the air while extending the arms overhead."    
+                        },
+                        {
+                            "name": "plank Jacks (3 sets of 60 seconds)",
+                            "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697299131/plank_jacks_wlfccy.webp",
+                            "description": "You get on all fours in a plank position, and then hop your feet outward and inward while trying to keep your spine and pelvis aligned"
+                        }
+                ]
     },
     {
         "id": 3,
         "title": "Lean Muscle Gain Routine",
+        "tag": "7-day routine",
         "image": "https://ik.imagekit.io/bytebenders/gym_03.jpg",
-        "description": "Sculpt a lean and muscular physique with this workout plan. Focus on hypertrophy (muscle growth) through a combination of resistance training and targeted exercises."
+        "description": "Sculpt a lean and muscular physique with this workout plan. Focus on hypertrophy (muscle growth) through a combination of resistance training and targeted exercises.",
+        "exercises": [
+            {
+                "day": 1,
+                "label": "Chest and Triceps",
+                "exercises": [
+                    {
+                        "name": "Bench Press (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697309559/bench_press_k5iuj0.jpg",
+                        "description": "1. Draw your shoulder blades back behind you to keep from pressing with rounded shoulders.\n 2. Grasp the barbell using an overhand grip, placing your thumbs on the outside of your closed fist. Your arms are slightly wider than shoulder-width apart and the angle of your upper arms is about 45 degrees to the body.\n3. Remove the barbell from the rack, locking your elbows. (Don't move the bar in an arc from the rack directly to the chest position.)\n4. Inhale while lowering the bar to your chest, at the nipple line.\n5. Exhale as you press the bar above your chest, extending your arms. Don't watch the bar—focus on the ceiling.\n6. Lower the bar so it is just above your chest. This is the starting position for the next bench press."
+                    },
+                    {
+                        "name": "inclined dumbbell press (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697310155/dumbbell_press_zyr4f1.jpg",
+                        "description": "1. Sit on the bench and lean back. Hold a dumbbell in each hand, with hands positioned at your shoulders, elbows bent and angled down below your ribs. Relax your neck against the bench. Keep your feet flat on the floor.\n2. Brace your core and press both dumbbells straight over your chest as you exhale. Keep your wrists straight (don't let them \"cock\" backward). At the top of the movement, the dumbbells should almost touch each other, and your arms should be perpendicular to the floor.\n3. Reverse the movement and slowly lower the dumbbells to the top of your chest as you inhale. As you lower the dumbbells, your elbows should come down at roughly a 45-degree angle to your torso. They shouldn't splay out to the sides, pointing toward the side of the room. Instead, keep your elbows pointing to the floor."
+                    },
+                    {
+                        "name":"Dumbbell Flyes (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697310315/dummbell_flyes_vxqueq.jpg",
+                        "description": "1. Holding a dumbbell in each hand, lie on your back on a flat bench with your feet flat on the ground. Squeeze your shoulder blades back against the bench. Maintain this throughout the exercise. \n2. Press the dumbbells up in line with your chest, with your palms facing each other. \n3. Take a deep breath and engage your core as you slowly lower the dumbbells in an arc direction, until the arms are almost parallel to the ground. Keep a soft bend in the elbows. \n4. Breathe out as you squeeze your chest to push the dumbbells back together. As they get closer to the top, push the dumbbells so they're in line with your ears."
+                    },
+                    {
+                        "name": "Close grip bench press (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697311480/Close-Grip-Bench-Press_vrhnvc.jpg",
+                        "description": "1. Lying down on a bench, position yourself so that your eyes are in line with or behind the barbell. \n2. Grip the barbell taking a close grip just outside of shoulder width apart. \n3. Retract your shoulder blades by pulling your shoulder blades into the bench and pressing through your feet. This should create an arch in your lower back, which helps to protect the shoulder joint. \n4. Take a deep breath in to unrack the barbell and hold it straight above you. \n5. Commence the reps by lowering the barbell in line with your mid chest making sure you keep your elbows tucked rather than allowing them to flare outwards. Ensure to lower the barbell until it is nearly touching your chest.  \n6. Push through your arms, chest and feet as you lift the barbell back up in an arc direction towards your chin. "
+                    },
+                    {
+                        "name": "Tricep Dips (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697311697/Triceps_dips_ylfkyd.webp",
+                        "description": "1. Press into your palms to lift your body and slide forward just far enough that your behind clears the edge of the chair. \n2. Lower yourself until your elbows are bent between 45 and 90 degrees. Control the movement throughout the range of motion. \n3. Push yourself back up slowly until your arms are almost straight, and repeat."
+                    },
+                    {
+                        "name": "Skull Crushers (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697312120/skull_crusher_c7dw5h.webp",
+                        "description": "1. Flex your elbows and lower the weight toward the top of your head. Your upper arms should remain relatively perpendicular to your body. This keeps the tension on the triceps versus shifting it to the shoulders. \n2. Continue lowering the weight behind the head. The bottom of the dumbbell head should be about in line with the bench's top, or even a little higher if this feels unwieldy. \n3. Reverse the movement until the weight is above the chest in the original starting position. Keep from locking the elbow to maintain tension in your triceps muscle."
+                    }
+                ]
+            },
+            {
+                "day": 2,
+                "label": "Back and Biceps",
+                "exercises": [
+                    {
+                        "name": "Deadlifts (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697314634/deadlifts_fkgenv.jpg",
+                        "description": "1. Start with the feet shoulder width apart (foot stance may vary depending on variation). Feet are under the bar with the bar close to the shins \n2. Lower the torso to the bar by pushing the buttocks back and hinging at the waist. Then grasp the bar in your hands. \n3. Squeeze the shoulder blades together to engage the lats, followed by engaging the core musculature. Make sure to keep the hips lower than the shoulders and the head/neck in a neutral position. \n4. Push through the feet and pull the weight up. Think about pushing the floor away, rather than lifting the weight up. The bar should stay relatively close to the shins. Squeeze the glutes to lock the top of the lift. \n5. Lower to the floor the the reverse manner."
+                    },
+                    {
+                        "name": "Pull-Ups (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697317369/pull-ups_yt4all.jpg",
+                        "description": "Exhale while pulling yourself up so your chin is level with the bar. Pause at the top. Lower yourself (inhaling as you go down) until your elbows are straight."
+                    },
+                    {
+                        "name": "Bent Over Rows (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697319715/Bent-Over-row_zsavzs.jpg",
+                        "description": "1. Grab a barbell with an overhand grip, hands slightly wider than shoulder width apart. //n2. With your legs slightly bent, lock your core, keep your back straight and send your hips behind your heels so that your torso is almost perpendicular to the floor. \n3. Row the weight upwards in an arc shape towards your hips. \n4. Pause and squeeze the shoulder blades together for a beat whilst keeping the shoulders away from the ears. \n5. Slowly reverse the rep back to the beginning position."
+                    },
+                    {
+                        "name": "Barbell Curls (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697343835/barbell-curl_gwttbi.jpg",
+                        "description": "1. Stand with your feet about shoulder-width apart, holding the bar, using a shoulder-width grip. \n2. Squeeze your glutes, abs, and shoulder blades. Keep your torso tight. Curl the weight up, moving only at the elbows. \n3. Squeeze your biceps at the top for a split second, then lower the weight back down."
+                    },
+                    {
+                        "name": "Hammer Curls (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697344425/hammer_curls_lgouye.png",
+                        "description": "1. Bend at the elbow, lifting the lower arms to pull the weights toward the shoulders. Your upper arms are stationary and the wrists are in line with the forearms. \n2. Hold for one second at the top of the movement. Your thumbs will be close to the shoulders and palms facing in, toward the midline of the body. \n3. Lower the weights to return to the starting position."
+                    },
+                    {
+                        "name": "Preacher Curls (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697344848/preacher_curls_oplmxe.jpg",
+                        "description": "1. Begin by adjusting your seat to a position in which your chest is flush against the preacher pad with your armpits firmly wedged in, leaving little to no gap. \n2. Grab each handle. Another benefit of using the machine preacher curl is that it allows you the option of either using a tight grip or light contact with relaxed palms. Either style works. \n3. Squeezing your shoulder blades and driving your lower body into the ground, begin curling the handles in a slow and controlled manner—as you would any other preacher curl. Focus on rotating both pinkies toward the ceiling as you work toward a solid squeeze at the top of the rep. \n4. Lower back to start position. That's one rep."
+                    }
+                ]
+            },
+            {
+                "day": 3,
+                "label": "Legs and Shoulders",
+                "exercises": [
+                    {
+                        "name": "Squats (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697345523/squats_kdaqhe.webp",
+                        "description": "Stand with your feet shoulder-width apart. Bend your knees and lower your hips until your thighs are parallel to the floor. Pause, then push through your heels to return to the starting position."
+                    },
+                    {
+                        "name": "Leg Press (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697345867/leg_press_kumwpd.jpg",
+                        "description": "1. Brace your abdominal muscles and push the platform away with your heels and forefoot. Your heels should remain flat on the footplate. The front of your foot or toes should never be used exclusively to move the pad forward. \n2. While exhaling, extend your legs and keep your head and back flat against the seat pad. Extend with slow control rather than with an explosive movement. \n3. Pause at the top of the movement. Do not lock out your knees, and ensure that they are not bowing out or in. \n4. While inhaling, return the footplate to the starting position by gradually bending the knees. Keep the feet and back flat throughout."
+                    },
+                    {
+                        "name": "Dumbbell Lunges (3 sets of 10-12 reps per leg)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697346468/dumbbell-lunge_l41k97.jpg",
+                        "description": "1. Inhale and take a big step forward with your right leg, landing on the heel. \n2. Bend at the knee until the right thigh approaches parallel to the ground. The left leg is bent at the knee and balanced on the toes while in the lunge position. \n3. Step the right foot back on an exhale to return to the starting position. \n4. Repeat the motion with the left leg."
+                    },
+                    {
+                        "name": "Overhead Press (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697347269/overhead_press_erok5c.jpg",
+                        "description": "1. Stand with the bar on your front shoulders, and your hands next to your shoulders \n2. Press the bar over your head, until it's balanced over your shoulders and mid-foot \n3. Lock your elbows at the top, and shrug your shoulders to the ceiling. \n4. Hold the bar for a second at the top. Then lower it back to your front shoulders and repeat."
+                    },
+                    {
+                        "name": "Lateral Raises (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697348792/lateral-raise_vsq2it.webp",
+                        "description": "1. Firstly, grab a couple of dumbbells and stand with them by your sides, with your palms facing your body. \n2. Stand tall with your core switched on and shoulder blades pulled back and down. Keeping your back straight, and your upper body still – that means no swinging – lift the dumbbells out to your side with a slight bend at your elbows, keeping the weights higher than your forearms. \n3. Lift until your arms are parallel to the floor, then slowly lower to the start position."
+                    },
+                    {
+                        "name": "Front Raises (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697349154/front_raise_fiqyj5.png",
+                        "description": "1. Lift the weights upward while inhaling. Your arms are extended, palms facing down, with a slight bend in the elbows to reduce the stress on the joints. \n2. Pause briefly when your arms are horizontal to the floor. \n3. Lower the dumbbells to the starting position (at the thighs) with a slow and controlled motion while exhaling."
+                    }
+                ]
+            },
+            {
+                "day": 4,
+                "label": "Rest Day",
+                "exercises": [
+                    {
+                        "name": "Take a rest today",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697349801/rest_day_kk40t4.jpg",
+                        "description": "On your rest day, it's important to give your body the time it needs to recover and rejuvenate. While you're taking a break from intense workouts, here's a message to keep in mind: \n \"Rest is a vital part of the journey towards a healthier, stronger you. It's on these days of rest that your body rebuilds and repairs itself, ensuring you're prepared for the next challenge. Embrace this time as a gift to your body and mind. Enjoy some relaxation, pursue your hobbies, spend time with loved ones, and remember that rest is as important as the effort you put in during your workouts. It's a necessary step on the path to progress. Cherish your rest day, and come back even more motivated and energized for the days ahead.\" \n Use your rest day as an opportunity to recharge, reflect on your fitness goals, and prioritize self-care. Whether it's through gentle stretching, meditation, or simply unwinding with a good book or a favorite movie, make the most of this day to ensure you're at your best when you return to your workout routine."
+                    }
+                ]
+            },
+            {
+                "day": 5,
+                "label": "Chest and Triceps",
+                "exercises": [
+                    {
+                        "name": "Bench Press (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697309559/bench_press_k5iuj0.jpg",
+                        "description": "1. Draw your shoulder blades back behind you to keep from pressing with rounded shoulders.\n 2. Grasp the barbell using an overhand grip, placing your thumbs on the outside of your closed fist. Your arms are slightly wider than shoulder-width apart and the angle of your upper arms is about 45 degrees to the body.\n3. Remove the barbell from the rack, locking your elbows. (Don't move the bar in an arc from the rack directly to the chest position.)\n4. Inhale while lowering the bar to your chest, at the nipple line.\n5. Exhale as you press the bar above your chest, extending your arms. Don't watch the bar—focus on the ceiling.\n6. Lower the bar so it is just above your chest. This is the starting position for the next bench press."
+                    },
+                    {
+                        "name": "inclined dumbbell press (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697310155/dumbbell_press_zyr4f1.jpg",
+                        "description": "1. Sit on the bench and lean back. Hold a dumbbell in each hand, with hands positioned at your shoulders, elbows bent and angled down below your ribs. Relax your neck against the bench. Keep your feet flat on the floor.\n2. Brace your core and press both dumbbells straight over your chest as you exhale. Keep your wrists straight (don't let them \"cock\" backward). At the top of the movement, the dumbbells should almost touch each other, and your arms should be perpendicular to the floor.\n3. Reverse the movement and slowly lower the dumbbells to the top of your chest as you inhale. As you lower the dumbbells, your elbows should come down at roughly a 45-degree angle to your torso. They shouldn't splay out to the sides, pointing toward the side of the room. Instead, keep your elbows pointing to the floor."
+                    },
+                    {
+                        "name":"Dumbbell Flyes (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697310315/dummbell_flyes_vxqueq.jpg",
+                        "description": "1. Holding a dumbbell in each hand, lie on your back on a flat bench with your feet flat on the ground. Squeeze your shoulder blades back against the bench. Maintain this throughout the exercise. \n2. Press the dumbbells up in line with your chest, with your palms facing each other. \n3. Take a deep breath and engage your core as you slowly lower the dumbbells in an arc direction, until the arms are almost parallel to the ground. Keep a soft bend in the elbows. \n4. Breathe out as you squeeze your chest to push the dumbbells back together. As they get closer to the top, push the dumbbells so they're in line with your ears."
+                    },
+                    {
+                        "name": "Close grip bench press (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697311480/Close-Grip-Bench-Press_vrhnvc.jpg",
+                        "description": "1. Lying down on a bench, position yourself so that your eyes are in line with or behind the barbell. \n2. Grip the barbell taking a close grip just outside of shoulder width apart. \n3. Retract your shoulder blades by pulling your shoulder blades into the bench and pressing through your feet. This should create an arch in your lower back, which helps to protect the shoulder joint. \n4. Take a deep breath in to unrack the barbell and hold it straight above you. \n5. Commence the reps by lowering the barbell in line with your mid chest making sure you keep your elbows tucked rather than allowing them to flare outwards. Ensure to lower the barbell until it is nearly touching your chest.  \n6. Push through your arms, chest and feet as you lift the barbell back up in an arc direction towards your chin. "
+                    },
+                    {
+                        "name": "Tricep Dips (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697311697/Triceps_dips_ylfkyd.webp",
+                        "description": "1. Press into your palms to lift your body and slide forward just far enough that your behind clears the edge of the chair. \n2. Lower yourself until your elbows are bent between 45 and 90 degrees. Control the movement throughout the range of motion. \n3. Push yourself back up slowly until your arms are almost straight, and repeat."
+                    },
+                    {
+                        "name": "Skull Crushers (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697312120/skull_crusher_c7dw5h.webp",
+                        "description": "1. Flex your elbows and lower the weight toward the top of your head. Your upper arms should remain relatively perpendicular to your body. This keeps the tension on the triceps versus shifting it to the shoulders. \n2. Continue lowering the weight behind the head. The bottom of the dumbbell head should be about in line with the bench's top, or even a little higher if this feels unwieldy. \n3. Reverse the movement until the weight is above the chest in the original starting position. Keep from locking the elbow to maintain tension in your triceps muscle."
+                    }
+                ]
+            },
+            {
+                "day": 6,
+                "label": "Back and Biceps",
+                "exercises": [
+                    {
+                        "name": "Deadlifts (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697314634/deadlifts_fkgenv.jpg",
+                        "description": "1. Start with the feet shoulder width apart (foot stance may vary depending on variation). Feet are under the bar with the bar close to the shins \n2. Lower the torso to the bar by pushing the buttocks back and hinging at the waist. Then grasp the bar in your hands. \n3. Squeeze the shoulder blades together to engage the lats, followed by engaging the core musculature. Make sure to keep the hips lower than the shoulders and the head/neck in a neutral position. \n4. Push through the feet and pull the weight up. Think about pushing the floor away, rather than lifting the weight up. The bar should stay relatively close to the shins. Squeeze the glutes to lock the top of the lift. \n5. Lower to the floor the the reverse manner."
+                    },
+                    {
+                        "name": "Pull-Ups (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697317369/pull-ups_yt4all.jpg",
+                        "description": "Exhale while pulling yourself up so your chin is level with the bar. Pause at the top. Lower yourself (inhaling as you go down) until your elbows are straight."
+                    },
+                    {
+                        "name": "Bent Over Rows (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697319715/Bent-Over-row_zsavzs.jpg",
+                        "description": "1. Grab a barbell with an overhand grip, hands slightly wider than shoulder width apart. //n2. With your legs slightly bent, lock your core, keep your back straight and send your hips behind your heels so that your torso is almost perpendicular to the floor. \n3. Row the weight upwards in an arc shape towards your hips. \n4. Pause and squeeze the shoulder blades together for a beat whilst keeping the shoulders away from the ears. \n5. Slowly reverse the rep back to the beginning position."
+                    },
+                    {
+                        "name": "Barbell Curls (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697343835/barbell-curl_gwttbi.jpg",
+                        "description": "1. Stand with your feet about shoulder-width apart, holding the bar, using a shoulder-width grip. \n2. Squeeze your glutes, abs, and shoulder blades. Keep your torso tight. Curl the weight up, moving only at the elbows. \n3. Squeeze your biceps at the top for a split second, then lower the weight back down."
+                    },
+                    {
+                        "name": "Hammer Curls (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697344425/hammer_curls_lgouye.png",
+                        "description": "1. Bend at the elbow, lifting the lower arms to pull the weights toward the shoulders. Your upper arms are stationary and the wrists are in line with the forearms. \n2. Hold for one second at the top of the movement. Your thumbs will be close to the shoulders and palms facing in, toward the midline of the body. \n3. Lower the weights to return to the starting position."
+                    },
+                    {
+                        "name": "Preacher Curls (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697344848/preacher_curls_oplmxe.jpg",
+                        "description": "1. Begin by adjusting your seat to a position in which your chest is flush against the preacher pad with your armpits firmly wedged in, leaving little to no gap. \n2. Grab each handle. Another benefit of using the machine preacher curl is that it allows you the option of either using a tight grip or light contact with relaxed palms. Either style works. \n3. Squeezing your shoulder blades and driving your lower body into the ground, begin curling the handles in a slow and controlled manner—as you would any other preacher curl. Focus on rotating both pinkies toward the ceiling as you work toward a solid squeeze at the top of the rep. \n4. Lower back to start position. That's one rep."
+                    }
+                ]
+            },
+            {
+                "day": 7,
+                "label": "Abs and shoulders",
+                "exercises": [
+                    {
+                        "name": "Leg Raises (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697350907/leg_raise_fsgw8p.jpg",
+                        "description": "1. Lie on your back with your legs straight and together, and your arms straight above your head. \n2. Keeping your legs straight, raise them up to a 90-degree angle from the floor. \n3. Slowly lower your legs back down till they're just above the floor. Hold for a moment. \n4. Raise your legs back up. Repeat."
+                    },
+                    {
+                        "name": "Planks: 3 sets of 60 seconds",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697351153/plank_wnuzk7.png",
+                        "description": " 1. Get into a pushup position on the floor. \n2. Bend your elbows 90 degrees and rest your weight on your forearms. \n3. Your elbows should be directly beneath your shoulders, and your body should form a straight line from head to feet. \n4. Hold the position for as long as you can. Your goal should be to hold it for a minutes."
+                    },
+                    {
+                        "name": "Russian Twists (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697351441/russian_twist_fowiya.jpg",
+                        "description": "1. Sit with your knees bent out in front of you, feet flexed, and heels on the floor. \n2. Hold your hands in front of your chest and lean your torso back until you feel your abdominal muscles engage. \n3. Slowly twist your torso from right to left. Remember to keep your core tight (and breathe!) throughout."
+                    },
+                    {
+                        "name": "Overhead Press (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697347269/overhead_press_erok5c.jpg",
+                        "description": "1. Stand with the bar on your front shoulders, and your hands next to your shoulders \n2. Press the bar over your head, until it's balanced over your shoulders and mid-foot \n3. Lock your elbows at the top, and shrug your shoulders to the ceiling. \n4. Hold the bar for a second at the top. Then lower it back to your front shoulders and repeat."
+                    },
+                    {
+                        "name": "Lateral Raises (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697348792/lateral-raise_vsq2it.webp",
+                        "description": "1. Firstly, grab a couple of dumbbells and stand with them by your sides, with your palms facing your body. \n2. Stand tall with your core switched on and shoulder blades pulled back and down. Keeping your back straight, and your upper body still – that means no swinging – lift the dumbbells out to your side with a slight bend at your elbows, keeping the weights higher than your forearms. \n3. Lift until your arms are parallel to the floor, then slowly lower to the start position."
+                    },
+                    {
+                        "name": "Front Raises (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697349154/front_raise_fiqyj5.png",
+                        "description": "1. Lift the weights upward while inhaling. Your arms are extended, palms facing down, with a slight bend in the elbows to reduce the stress on the joints. \n2. Pause briefly when your arms are horizontal to the floor. \n3. Lower the dumbbells to the starting position (at the thighs) with a slow and controlled motion while exhaling."
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 4,
         "title": "Core Strengthening Circuit",
+        "tag": "daily",
         "image": "https://ik.imagekit.io/bytebenders/gym_04.jpg",
-        "description": "Develop a strong and stable core with this circuit-style workout. Strengthen your abs, obliques, and lower back muscles for better posture and functional strength."
+        "description": "Develop a strong and stable core with this circuit-style workout. Strengthen your abs, obliques, and lower back muscles for better posture and functional strength.",
+        "exercises": [
+            {
+                "name": "Planks: 3 sets of 60 seconds",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697351153/plank_wnuzk7.png",
+                "description": " 1. Get into a pushup position on the floor. \n2. Bend your elbows 90 degrees and rest your weight on your forearms. \n3. Your elbows should be directly beneath your shoulders, and your body should form a straight line from head to feet. \n4. Hold the position for as long as you can. Your goal should be to hold it for a minutes."
+            },
+            {
+                "name": "Russian Twists (3 sets of 10-12 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697351441/russian_twist_fowiya.jpg",
+                "description": "1. Sit with your knees bent out in front of you, feet flexed, and heels on the floor. \n2. Hold your hands in front of your chest and lean your torso back until you feel your abdominal muscles engage. \n3. Slowly twist your torso from right to left. Remember to keep your core tight (and breathe!) throughout."
+            },
+            {
+                "name": "Leg Raises (3 sets of 10-12 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697350907/leg_raise_fsgw8p.jpg",
+                "description": "1. Lie on your back with your legs straight and together, and your arms straight above your head. \n2. Keeping your legs straight, raise them up to a 90-degree angle from the floor. \n3. Slowly lower your legs back down till they're just above the floor. Hold for a moment. \n4. Raise your legs back up. Repeat."
+            },
+            {
+                "name": "Bicycle Crunches (3 sets of 10-12 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697365599/Bicycle_crunches_tbkv6h.jpg",
+                "description": "1. Lie on your back with your hands behind your head. \n2. Lift your legs off the ground and bring your right elbow towards your left knee while extending your right leg. \n3. Alternate sides in a cycling motion."
+            },
+            {
+                "name": "Hanging Leg Raises (3 sets of 10-12 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697366062/hanging_leg_raises_qyqies.webp",
+                "description": "1. Hang from a pull-up bar or similar apparatus. \n2. Lift your legs while keeping them straight until they are parallel to the ground. \n3. Lower your legs back down with control."
+            },
+            {
+                "name": "Side Planks (3 sets of 60 seconds)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697378562/side_plank_jqvo0n.jpg",
+                "description": "1. Lie on your side with your elbow directly beneath your shoulder. \n2. Lift your hips off the ground, forming a straight line from head to heels. \n3. Hold the position on each side."
+            },
+            {
+                "name": "Mountain Climbers (3 sets of 60 seconds)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697290514/mountain_climbers_ye1skc.jpg",
+                "description": "an exercise in which you start with your hands and feet on the floor and your legs stretched out, and then bring each leg in turn up towards your chest"
+            },
+            {
+                "name": "Flutter Kicks (3 sets of 60 seconds)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697378826/flutter_kicks_g1pqb0.webp",
+                "description": "1. Lie flat on your back with your hands under your hips. \n2. Lift your legs slightly off the ground and alternate kicking them up and down."
+            },
+            {
+                "name": "V-Ups (3 sets of 10-12 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697379019/v_ups_og36q0.webp",
+                "description": "1. Lie flat on your back with your arms extended overhead. \n2. Lift your legs and upper body at the same time, forming a V-shape with your body."
+            },
+            {
+                "name": "Superman Pose (3 sets of 60 seconds)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697379193/superman_pose_xaupe4.jpg",
+                "description": "1. Lie face down with your arms extended overhead. \n2. Lift your arms, chest, and legs off the ground simultaneously, creating a \"flying\" position."
+            }
+        ]
     },
     {
         "id": 5,
-        "title": "Flexibility and Mobility Yoga",
-        "image": "https://ik.imagekit.io/bytebenders/gym_05.jpg",
-        "description": "Enhance flexibility and mobility through yoga practice. This program combines stretching, balance, and mindfulness to improve your overall range of motion."
+        "title": "Bodyweight Challenge",
+        "tag": "7-day routine",
+        "image": "https://ik.imagekit.io/bytebenders/gym_06.jpg",
+        "description": "Get fit anywhere, anytime with bodyweight exercises. This program requires no equipment and includes exercises like push-ups, squats, and planks for a total-body workout.",
+        "exercises": [
+            {
+                "day": 1,
+                "label": "Upper Body Blast",
+                "exercises": [
+                    {
+                        "name": "Push ups (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697387365/Pushups_qd9pwv.jpg",
+                        "description": "1. Get down on all fours, placing your hands slightly wider than your shoulders. \n2. Straighten your arms and legs. Lower your body until your chest nearly touches the floor. \n3. Pause, then push yourself back up. Repeat."
+                    },
+                    {
+                        "name": "Diamond push ups (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697387570/Diamond-Push-Up_wmmee7.webp",
+                        "description": "Similar to regular push-ups but with your hands close together, forming a diamond shape with your thumbs and index fingers."
+                    },
+                    {
+                        "name": "Planks: 3 sets of 60 seconds",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697351153/plank_wnuzk7.png",
+                        "description": " 1. Get into a pushup position on the floor. \n2. Bend your elbows 90 degrees and rest your weight on your forearms. \n3. Your elbows should be directly beneath your shoulders, and your body should form a straight line from head to feet. \n4. Hold the position for as long as you can. Your goal should be to hold it for a minutes."
+                    }
+                ]
+            },
+            {
+                "day": 2,
+                "label": "Lower Body Blast",
+                "exercises": [
+                    {
+                        "name": "Squats (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697345523/squats_kdaqhe.webp",
+                        "description": "Stand with your feet shoulder-width apart. Bend your knees and lower your hips until your thighs are parallel to the floor. Pause, then push through your heels to return to the starting position."
+                    },
+                    {
+                        "name": "Dumbbell Lunges (3 sets of 10-12 reps per leg)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697346468/dumbbell-lunge_l41k97.jpg",
+                        "description": "1. Inhale and take a big step forward with your right leg, landing on the heel. \n2. Bend at the knee until the right thigh approaches parallel to the ground. The left leg is bent at the knee and balanced on the toes while in the lunge position. \n3. Step the right foot back on an exhale to return to the starting position. \n4. Repeat the motion with the left leg."
+                    },
+                    {
+                        "name": "Barbell Glute Bridges (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697388170/glute_bridge_zvxe7p.webp",
+                        "description": "1. Lie on your back with your knees bent and feet flat on the floor. \n2. Lift your hips off the ground by squeezing your glutes and pushing through your heels. \n3. Your body should form a straight line from shoulders to knees when fully extended."
+                    }
+                ]
+            },
+            {
+                "day": 3,
+                "label": "Core Crusher",
+                "exercises": [
+                    {
+                        "name": "Bicycle Crunches (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697365599/Bicycle_crunches_tbkv6h.jpg",
+                        "description": "1. Lie on your back with your hands behind your head. \n2. Lift your legs off the ground and bring your right elbow towards your left knee while extending your right leg. \n3. Alternate sides in a cycling motion."
+                    },
+                    {
+                        "name": "Russian Twists (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697351441/russian_twist_fowiya.jpg",
+                        "description": "1. Sit with your knees bent out in front of you, feet flexed, and heels on the floor. \n2. Hold your hands in front of your chest and lean your torso back until you feel your abdominal muscles engage. \n3. Slowly twist your torso from right to left. Remember to keep your core tight (and breathe!) throughout."
+                    },
+                    {
+                        "name": "Planks: 3 sets of 60 seconds",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697351153/plank_wnuzk7.png",
+                        "description": " 1. Get into a pushup position on the floor. \n2. Bend your elbows 90 degrees and rest your weight on your forearms. \n3. Your elbows should be directly beneath your shoulders, and your body should form a straight line from head to feet. \n4. Hold the position for as long as you can. Your goal should be to hold it for a minutes."
+                    }
+                ]
+            },
+            {
+                "day": 4,
+                "label": "Cardio Challenge",
+                "exercises": [
+                    {
+                        "name": "High Knees (3 sets of 60 seconds)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697288785/high_knees_jstsip.jpg",
+                        "description": "Run in place, bringing your knees up to your chest as high as you can. Repeat for 30 seconds."
+                    },
+                    {
+                        "name": "Burpees (3 sets of 10 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697287512/burpees_revlvz.jpg",
+                        "description": " place the palms of the hands on the floor in front of the feet, jump back into a push-up position, in some cases completes one push-up, return to the squat position, and then jump up into the air while extending the arms overhead."    
+                    },
+                    {
+                        "name": "Mountain Climbers (3 sets of 60 seconds)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697290514/mountain_climbers_ye1skc.jpg",
+                        "description": "an exercise in which you start with your hands and feet on the floor and your legs stretched out, and then bring each leg in turn up towards your chest"
+                    }
+                ]
+            },
+            {
+                "day": 5,
+                "label": "Active Rest",
+                "exercises": [
+                    {
+                        "name": "Take a rest today",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697349801/rest_day_kk40t4.jpg",
+                        "description": "On your rest day, it's important to give your body the time it needs to recover and rejuvenate. While you're taking a break from intense workouts, here's a message to keep in mind: \n \"Rest is a vital part of the journey towards a healthier, stronger you. It's on these days of rest that your body rebuilds and repairs itself, ensuring you're prepared for the next challenge. Embrace this time as a gift to your body and mind. Enjoy some relaxation, pursue your hobbies, spend time with loved ones, and remember that rest is as important as the effort you put in during your workouts. It's a necessary step on the path to progress. Cherish your rest day, and come back even more motivated and energized for the days ahead.\" \n Use your rest day as an opportunity to recharge, reflect on your fitness goals, and prioritize self-care. Whether it's through gentle stretching, meditation, or simply unwinding with a good book or a favorite movie, make the most of this day to ensure you're at your best when you return to your workout routine."
+                    }
+                ]
+            },
+            {
+                "day": 6,
+                "label": "Full body burn",
+                "exercises": [
+                    {
+                        "name": "Push ups (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697387365/Pushups_qd9pwv.jpg",
+                        "description": "1. Get down on all fours, placing your hands slightly wider than your shoulders. \n2. Straighten your arms and legs. Lower your body until your chest nearly touches the floor. \n3. Pause, then push yourself back up. Repeat."
+                    },
+                    {
+                        "name": "Squats (4 sets of 8 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697345523/squats_kdaqhe.webp",
+                        "description": "Stand with your feet shoulder-width apart. Bend your knees and lower your hips until your thighs are parallel to the floor. Pause, then push through your heels to return to the starting position."
+                    },
+                    {
+                        "name": "Planks: 3 sets of 60 seconds",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697351153/plank_wnuzk7.png",
+                        "description": " 1. Get into a pushup position on the floor. \n2. Bend your elbows 90 degrees and rest your weight on your forearms. \n3. Your elbows should be directly beneath your shoulders, and your body should form a straight line from head to feet. \n4. Hold the position for as long as you can. Your goal should be to hold it for a minutes."
+                    }
+                ]
+            },
+            {
+                "day": 7,
+                "label": "Total Body challenge",
+                "exercises": [
+                    {
+                        "name": "Pull-Ups (4 sets of 8 reps)",
+                        "image": "https://ik.imagekit.io/bytebenders/pull_ups.jpg",
+                        "description": "Grab the pull-up bar with your palms facing away from you and your hands shoulder-width apart. Pull yourself up until your chin is above the bar. Pause, then lower yourself back down to the starting position."
+                    },
+                    {
+                        "name": "Tricep Dips (3 sets of 10-12 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697311697/Triceps_dips_ylfkyd.webp",
+                        "description": "1. Press into your palms to lift your body and slide forward just far enough that your behind clears the edge of the chair. \n2. Lower yourself until your elbows are bent between 45 and 90 degrees. Control the movement throughout the range of motion. \n3. Push yourself back up slowly until your arms are almost straight, and repeat."
+                    },
+                    {
+                        "name": "Superman Pose (3 sets of 60 seconds)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697379193/superman_pose_xaupe4.jpg",
+                        "description": "1. Lie face down with your arms extended overhead. \n2. Lift your arms, chest, and legs off the ground simultaneously, creating a \"flying\" position."
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 6,
-        "title": "Bodyweight Challenge",
-        "image": "https://ik.imagekit.io/bytebenders/gym_06.jpg",
-        "description": "Get fit anywhere, anytime with bodyweight exercises. This program requires no equipment and includes exercises like push-ups, squats, and planks for a total-body workout."
+        "title": "High-Intensity Plyometrics",
+        "tag": "daily",
+        "image": "https://ik.imagekit.io/bytebenders/gym_07.jpg",
+        "description": "Boost your athletic performance with plyometric exercises. Improve your explosiveness and agility by incorporating jumps, hops, and explosive movements into your routine.",
+        "exercises": [
+            {
+                "name": "Jumping Squats (3 sets of 10-12 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697390856/jump_squats_dnvozv.jpg",
+                "description": "Start with a regular squat, then explode upward into a jump, landing softly in the squat position."
+            },
+            {
+                "name": "Box Jumps",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697391161/box_jump_i2cvds.jpg",
+                "description": "Stand in front of a sturdy box or platform, jump onto it, and step back down. Repeat."
+            },
+            {
+                "name": "Burpees (3 sets of 10 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697287512/burpees_revlvz.jpg",
+                "description": " place the palms of the hands on the floor in front of the feet, jump back into a push-up position, in some cases completes one push-up, return to the squat position, and then jump up into the air while extending the arms overhead."    
+            },
+            {
+                "name": "Tuck Jumps (3 sets of 60 seconds)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697292572/tuck_jump_mbla2e.jpg",
+                "description": " place the palms of the hands on the floor in front of the feet, jump back into a push-up position, in some cases completes one push-up, return to the squat position, and then jump up into the air while extending the arms overhead."    
+            },
+            {
+                "name": "jumping Lunges (3 sets of 60 seconds)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697291188/jumping_lunge_bbnp5u.jpg",
+                "description": "Jump up, quickly switching the position of your feet while mid-air so your right leg moves back behind you and your left leg comes forward. To help you move explosively, propel your arms into the air while you jump. Gently land back on the floor in a basic lunge position with the opposite leg forward."
+            },
+            {
+                "name": "Broad Jumps (3 sets of 5 jumps",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697391340/broad_jump_nargcv.jpg",
+                "description": "Jump forward as far as you can, focusing on distance"
+            },
+            {
+                "name": "Plyometric push ups ( 3 sets of 8 reps)",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697391657/plyometric_pushup_pbuls0.webp",
+                "description": "Perform a push-up, then explode upward to lift your hands off the ground."
+            }
+        ]
     },
     {
         "id": 7,
-        "title": "High-Intensity Plyometrics",
-        "image": "https://ik.imagekit.io/bytebenders/gym_07.jpg",
-        "description": "Boost your athletic performance with plyometric exercises. Improve your explosiveness and agility by incorporating jumps, hops, and explosive movements into your routine."
+        "title": "CrossFit Inspired WOD",
+        "tag": "7-day routine",
+        "image": "https://ik.imagekit.io/bytebenders/gym_08.jpg",
+        "description": "Experience the intensity of CrossFit-style workouts. Challenge yourself with a variety of functional movements and high-intensity workouts that test your endurance and strength.",
+        "exercises": [
+             {
+                "day": 1,
+                "label": "Fran (21-15-9 repetition of )",
+                "exercises": [
+                    {
+                        "name": "Thrusters (21-15-9 repetition )",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697405090/thruster_rv1dlu.webp",
+                        "description": "This exercise combines a front squat and an overhead press. Hold a barbell or dumbbells at shoulder height, perform a squat, and then push the weight overhead as you stand up."
+                    },
+                    {
+                        "name": "Pull-Up (21-15-9 repetition )",
+                        "image": "https://ik.imagekit.io/bytebenders/pull_ups.jpg",
+                        "description": "Grab the pull-up bar with your palms facing away from you and your hands shoulder-width apart. Pull yourself up until your chin is above the bar. Pause, then lower yourself back down to the starting position."
+                    }
+                ]
+             },
+             {
+                "day": 2,
+                "label": "Cindy (as many rounds as possible in 20 minutes)",
+                "exercises": [
+                    {
+                        "name": "Pull-Up (5 reps)",
+                        "image": "https://ik.imagekit.io/bytebenders/pull_ups.jpg",
+                        "description": "Grab the pull-up bar with your palms facing away from you and your hands shoulder-width apart. Pull yourself up until your chin is above the bar. Pause, then lower yourself back down to the starting position."
+                    },
+                    {
+                        "name": "Push ups (10 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697387365/Pushups_qd9pwv.jpg",
+                        "description": "1. Get down on all fours, placing your hands slightly wider than your shoulders. \n2. Straighten your arms and legs. Lower your body until your chest nearly touches the floor. \n3. Pause, then push yourself back up. Repeat."
+                    },
+                    {
+                        "name": "Squats (15 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697345523/squats_kdaqhe.webp",
+                        "description": "Stand with your feet shoulder-width apart. Bend your knees and lower your hips until your thighs are parallel to the floor. Pause, then push through your heels to return to the starting position."
+                    }
+                ]
+             },
+             {
+                "day": 3,
+                "label": "Helen (3 rounds for time)",
+                "exercises": [
+                    {
+                        "name": "400-meter run",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697288218/running_ssxo5f.png",
+                        "description": "Run 400 meters"
+                    },
+                    {
+                        "name": "Kettlebell Swings (21 reps)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697405984/kettlebell_swing_zjy2rx.jpg",
+                        "description": "Use a kettlebell and swing it from a squatting position to a standing position."
+                    },
+                    {
+                        "name": "Pull-Ups (12 reps)",
+                        "image": "https://ik.imagekit.io/bytebenders/pull_ups.jpg",
+                        "description": "Grab the pull-up bar with your palms facing away from you and your hands shoulder-width apart. Pull yourself up until your chin is above the bar. Pause, then lower yourself back down to the starting position."
+                    }
+                ]
+             },
+             {
+                "day": 4,
+                "label": "Grace",
+                "exercises": [
+                    {
+                        "name": "Clean and Jerk (30 reps for time)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697406339/clean_and_jerk_mdeha9.jpg",
+                        "description": "Lift a barbell or dumbbells from the ground to your shoulders, then push it overhead in a controlled motion."
+                    }
+                ]
+             },
+             {
+                "day": 5,
+                "label": "Murph (for time)",
+                "exercises": [
+                    {
+                        "name": "1 mile run",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697288218/running_ssxo5f.png",
+                        "description": "Run 1 mile"
+                    },
+                    {
+                        "name": "100 pull-ups",
+                        "image": "https://ik.imagekit.io/bytebenders/pull_ups.jpg",
+                        "description": "Grab the pull-up bar with your palms facing away from you and your hands shoulder-width apart. Pull yourself up until your chin is above the bar. Pause, then lower yourself back down to the starting position."
+                    },
+                    {
+                        "name": "200 push-ups",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697387365/Pushups_qd9pwv.jpg",
+                        "description": "1. Get down on all fours, placing your hands slightly wider than your shoulders. \n2. Straighten your arms and legs. Lower your body until your chest nearly touches the floor. \n3. Pause, then push yourself back up. Repeat."
+                    },
+                    {
+                        "name": "300 squats",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697345523/squats_kdaqhe.webp",
+                        "description": "Stand with your feet shoulder-width apart. Bend your knees and lower your hips until your thighs are parallel to the floor. Pause, then push through your heels to return to the starting position."
+                    },
+                    {
+                        "name": "1 mile run",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697288218/running_ssxo5f.png",
+                        "description": "Run 1 mile"
+                    }
+                ]
+             },
+             {
+                "day": 6,
+                "label": "Annie (for time compelete 50-40-30-20-10 repetitions) ",
+                "exercises": [
+                    {
+                        "name": "double unders(jump rope)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697433303/jump_rope_wdjmon.jpg",
+                        "description": " Jump rope and swing the rope under your feet twice for each jump."
+                    },
+                    {
+                        "name": "Sit ups ",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697433478/sit_ups_h6sbkj.jpg",
+                        "description": "Perform standard sit-ups, raising your upper body toward your knees."
+                    }
+                ]
+             },
+             {
+                "day": 7,
+                "label": "Fight Gone Bad (3 rounds for time with 1 minute rest between rounds)",
+                "exercises": [
+                    {
+                        "name": "1 minute of wall-ball shots",  
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697433753/wall_balls_cgvsuc.jpg",
+                        "description": "Get into a squat position, with your knees bent, with the ball on the outside of your left hip. While extending your legs to stand up, pivot your left foot, rotate, and throw the ball at the wall. Stay in this position to catch the ball. Return to starting position and repeat"
+                    },
+                    {
+                        "name": "1 minute of sumo deadlift high pulls",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697434019/sumo_deadlift_invhuv.jpg",
+                        "description": "Lift a barbell or kettlebell from the ground to a high pull"
+                    },
+                    {
+                        "name" : "1 minute of box jumps",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697391161/box_jump_i2cvds.jpg",
+                        "description": "Stand in front of a sturdy box or platform, jump onto it, and step back down. Repeat."
+                    },
+                    {
+                        "name": "1 minute of push presses",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697434245/push_presses_hv8h7y.jpg",
+                        "description": "Lift a barbell or dumbbells from shoulder height overhead."
+                    },
+                    {
+                        "name": "1 minute of rowing (calories)",
+                        "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697434379/rowing-beginner-guide_najqpl.webp",
+                        "description": "1. Catch: Start with your legs bent, your body leaned forward, and your arms fully extended, holding the handlebar. This position is similar to the \"catch\" position in real rowing. \n2. Drive: Push off with your legs, extending them fully. Lean back slightly and pull the handlebar towards your chest. \n3. Finish: At the end of the drive, your legs are fully extended, your torso is leaned back, and your hands are close to your chest. \n4. Recovery: Reverse the motion by extending your arms, leaning your torso forward, and bending your knees to return to the catch position."
+                    }
+                ]
+             }
+        ]
     },
     {
         "id": 8,
-        "title": "CrossFit Inspired WOD",
-        "image": "https://ik.imagekit.io/bytebenders/gym_08.jpg",
-        "description": "Experience the intensity of CrossFit-style workouts. Challenge yourself with a variety of functional movements and high-intensity workouts that test your endurance and strength."
+        "title": "Endurance Running Plan",
+        "tag": "7-day routine",
+        "image": "https://ik.imagekit.io/bytebenders/gym_09.jpg",
+        "description": "Build endurance and conquer long-distance running goals. This program includes progressive training runs and tips for improving your stamina.",
+        "exercises": [
+            {
+                "day": 1,
+                "label": "Easy Run",
+                "exercises": [
+                    {
+                        "name": "Easy Run",
+                        "description": "Run 3 miles at an easy pace"
+                    }
+                ]
+            },
+            {
+                "day": 2,
+                "label": "Tempo Run",
+                "exercises": [
+                    {
+                        "name": "Tempo Run",
+                        "description": "Run at a brisk pace (not a sprint) for 20 minutes."
+                    }
+                ]
+            },
+            {
+                "day": 3,
+                "label": "Rest or active recovery",
+                "exercises": [
+                    {
+                        "name": "Rest or active recovery",
+                        "description": "Engage in light activities like walking, cycling, or stretching to aid recovery."
+                    }
+                ]
+            },
+            {
+                "day": 4,
+                "label": "Interval Training",
+                "exercises": [
+                    {
+                        "name": "Interval Training",
+                        "description": "- Warm up with a 10-minute easy run. \n- Run hard (close to a sprint) for 1 minute. \n- Recover with a 2-minute easy jog. \n- Repeat the hard run and recovery jog for a total of 8 intervals. \n- Cool down with a 10-minute easy run."
+                    }
+                ]
+            },
+            {
+                "day": 5,
+                "label": "Long Run",
+                "exercises": [
+                    {
+                        "name": "Long Run",
+                        "description": "Run at a comfortable, steady pace for 45 minutes."
+                    }
+                ]
+            },
+            {
+                "day": 6,
+                "label": "Fartlek Run",
+                "exercises": [
+                    {
+                        "name": "Fartlek Run",
+                        "description": "Fartlek means \"speed play.\" During this run, alternate between fast and slow segments. For example: \n- Run at a faster pace for 1 minute. \n- Follow it with a slower-paced jog for 2 minutes. \n- Continue this pattern for 30 minutes."
+                    }
+                ]
+            },
+            {
+                "day": 7,
+                "label": "Longest Run",
+                "exercises": [
+                    {
+                        "name": "Longest Run",
+                        "description": "Push yourself to your current limit. Run at a comfortable pace, trying to cover the longest distance you've attempted in recent weeks. Aim for 60 minutes or more."
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 9,
-        "title": "Endurance Running Plan",
-        "image": "https://ik.imagekit.io/bytebenders/gym_09.jpg",
-        "description": "Build endurance and conquer long-distance running goals. This program includes progressive training runs and tips for improving your stamina."
-    },
-    {
-        "id": 10,
         "title": "Posture and Post-Workout Stretching",
+        "tag": "daily",
         "image": "https://ik.imagekit.io/bytebenders/gym_10.jpg",
-        "description": "Focus on recovery and posture with this stretching routine. Relieve muscle tension, reduce the risk of injury, and improve your posture with targeted stretches."
+        "description": "Focus on recovery and posture with this stretching routine. Relieve muscle tension, reduce the risk of injury, and improve your posture with targeted stretches.",
+        "exercises": [
+            {
+                "name": "upper back stretch",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697437340/upper_back_stretch_angihv.jpg",
+                "description": "- Stand or sit with your back straight. \n- Clasp your hands in front of you, palms facing outward. \n- Gently push your arms forward, rounding your upper back. \n- Hold for 20-30 seconds."
+            },
+            {
+                "name": "neck stretch",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697437577/neck_stretch_o5hjzo.jpg",
+                "description": "- Sit or stand with a straight back. \n- Slowly tilt your head to one side, bringing your ear toward your shoulder. \n- Hold for 20-30 seconds on each side."
+            },
+            {
+                "name": "chest opener",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697437897/chest_opener_nrifif.jpg",
+                "description": "- Stand with your feet hip-width apart. \n- Interlace your fingers behind your back and straighten your arms. \n- Lift your arms slightly and open your chest. \n- Hold for 20-30 seconds."
+            },
+            {
+                "name": "Seated Forward Fold",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697438249/seated_front_fold_esw02g.jpg",
+                "description": "- Sit with your legs extended in front of you. \n- Hinge at your hips and reach for your toes. \n- Hold for 20-30 seconds."
+            },
+            {
+                "name": "Hip Flexor Stretch",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697438482/hip_flexor_d3ma3d.jpg",
+                "description": "- Kneel on one knee and step the other foot forward. \n- Keep your back straight and gently push your hips forward. \n- Hold for 20-30 seconds on each side."
+            },
+            {
+                "name": "Child's Pose",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697438627/childs_pose_iliamu.jpg",
+                "description": "- Kneel on the floor and sit back on your heels. \n- Reach your arms forward and lower your chest toward the ground. \n- Hold for 20-30 seconds."
+            },
+            {
+                "name": "Full Body Stretch",
+                "image": "https://res.cloudinary.com/davfgdc5f/image/upload/v1697438914/full_body_skberj.jpg",
+                "description": "- Stand with your feet together and reach your arms overhead. \n- Stretch your body from your fingertips to your toes. \n- Hold for 20-30 seconds."
+            }
+        ]
     }
 ]

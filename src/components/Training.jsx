@@ -13,7 +13,7 @@ const Training = (props) => {
                     return <WorkOutCards key={workout.id} {...workout} explore={props.explore} />
                 })}
             </div>
-            <Footer className='foot'>Made with ❤️ by Taarzan</Footer>
+            <Footer className='foot'>Made with ❤️ by ProFit</Footer>
         </div>
     );
 }
