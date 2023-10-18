@@ -41,7 +41,7 @@ const Explore = (props) => {
               
                         <div>
                             <div key={workout.id} className="text-white flex items-center h-4/5 justify-between flex-col">
-                                <h1 className="text-3xl mt-4 font-semibold text-white text-center">{workout.title}</h1>
+                                <h1 className="text-3xl mt-4 font-semibold text-white text-center">{workout.title}<span className="w-fit ml-2.5 p-1 rounded-lg bg-gray-700">{workout.tag}</span></h1>
                                 <div className="mt-4 w-1/4 text-center">" {workout.description} " </div>
                                 <img className='w-1/3 m-4' src={workout.image} alt={workout.title} />
                             </div>
