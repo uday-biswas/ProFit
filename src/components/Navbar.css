@@ -1,12 +1,14 @@
   .open{
     display: flex;
     flex-direction: column;
-    position: absolute;
-    right: 90px;
-    top: 45px;
-    z-index: 2;
+    width: 150px;
+    position: fixed;
+    right: 50px;
+    top: 25px;
+    z-index: 15;
     border: 1px solid white;
-    background-color: rgb(41, 41, 150);
+    border-radius: 10px;
+    background-color: rgb(38, 38, 56);
   }
   .small{
     display: none;
@@ -16,8 +18,11 @@
       display: none;
     }
     .small{
-        display: block;
-        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        transform: scale(1.5);
     }
   }
   

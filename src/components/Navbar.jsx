@@ -1,5 +1,6 @@
 import React from 'react';
 import { GiGymBag, GiHamburgerMenu } from 'react-icons/gi';
+import {VscMenu} from 'react-icons/vsc';
 import { useState, useEffect } from 'react';
 import './Navbar.css';
 
@@ -17,20 +18,22 @@ const Navbar = (props) => {
     };
 
     return (
-        <nav className="bg-blue-500 py-4 h-12">
-            <div className="container mx-auto flex justify-between" onClick={() => setIsMenuOpen(false)}>
+        <nav className="w-full h-16 mb-6">
+            <div className="z-10 bg-blue-500 p-1 py-4 flex fixed justify-between w-full h-16" onClick={() => setIsMenuOpen(false)}>
                 <div className="flex space-x-3 text-white text-2xl font-bold"><div>ProFit</div><GiGymBag className="relative top-1" /></div>
-                <div className="small"><GiHamburgerMenu onClick={toggleMenu}/> </div>
+                <div className="small"><VscMenu className="hover:cursor-pointer" onClick={toggleMenu}/> </div>
                 <div className={`${isMenuOpen && "open"} hidden`}>
-                {/* <div className='open absolute right-0'> */}
-                    {props.data.map((item) => (
-                        <button
+                    {props.data.map((item, index) => (
+                        <div >
+                        <div className="m-auto w-20"><button
                             key={item.id}
-                            className="text-white font-bold hover:text-blue-700 transition duration-300 ease-in-out"
+                            className="text-white font-bold hover:text-blue-700 w-20 m-auto p-1 transition duration-300 ease-in-out"
                             onClick={() => props.active(item.id)}
                         >
                             {item.id===props.active_id ? <span className="text-blue-800">{item.name}</span> : item.name}
-                        </button>
+                        </button></div>
+                        {index !== 7 && <hr className="border-1 border-blue-500" />} 
+                        </div>
                     ))}
                 </div>
 
