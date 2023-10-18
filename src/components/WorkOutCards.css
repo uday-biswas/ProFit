@@ -41,3 +41,11 @@
     font-size: large;
     font-weight: 500;
 }
+
+@media (max-width: 1000px) {
+    .workout_cards {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+    

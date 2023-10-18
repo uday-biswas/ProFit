@@ -18,7 +18,7 @@ const Navbar = (props) => {
     };
 
     return (
-        <nav className="w-full h-16 mb-6">
+        <nav className="w-full h-16">
             <div className="z-10 bg-blue-500 p-1 py-4 flex fixed justify-between w-full h-16" onClick={() => setIsMenuOpen(false)}>
                 <div className="flex space-x-3 text-white text-2xl font-bold"><div>ProFit</div><GiGymBag className="relative top-1" /></div>
                 <div className="small"><VscMenu className="hover:cursor-pointer" onClick={toggleMenu}/> </div>
