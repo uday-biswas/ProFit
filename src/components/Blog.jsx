@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import BlogCard from './BlogCard';
+import Footer from './Footer';
 
 const Blog = () => {
   const [newsData, setNewsData] = useState([]);
@@ -34,6 +35,7 @@ const Blog = () => {
             article.description !== null && <BlogCard key={index} title={article.title} description={article.description} url={article.url} urlToImage={article.urlToImage}/>
         ))}
         </div>
+        <Footer/>
     </div>
   );
 };

@@ -69,7 +69,7 @@ const Home = (props) => {
                 pauseOnHover
                 theme="light"
             />
-            <Footer className='foot'>Made with ❤️ by ProFit</Footer>
+            <Footer/>
         </div>
     )
 }

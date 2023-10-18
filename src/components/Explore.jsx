@@ -58,7 +58,7 @@ const Explore = (props) => {
                     </div> 
                     <div className="font-semibold text-3xl m-6 text-white">Day {dayClicked} {label}</div>
                     <DayProgress exercises={exercises} change={workout_or_day_changed}/>
-                    <Footer className='foot'>Made with ❤️ by ProFit</Footer>
+                    <Footer/>
                 </div>
             }
         </div>
