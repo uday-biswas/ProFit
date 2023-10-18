@@ -15,9 +15,14 @@ import { navbar_data } from "./navbar_data";
 const App = () => {
   const [nav_id, setNav_id] = useState(1);
   const [workout_id, setWorkout_id] = useState(1);
+  const [isMenu, setIsMenu] = useState(false);
 
   const activeSession = (id) => {
     setNav_id(id);
+  };
+
+  const setIsMenuCheck = () => {
+    setIsMenu(!isMenu);
   };
 
   const workout = (workout_id) => {
@@ -26,8 +31,13 @@ const App = () => {
   };
 
   return (
-    <div className="back">
-      <Navbar data={navbar_data} active={activeSession} active_id={nav_id} />
+    <div className="back" onClick={setIsMenuCheck}>
+      <Navbar
+        data={navbar_data}
+        active={activeSession}
+        isMenu={isMenu}
+        active_id={nav_id}
+      />
 
       {nav_id === 1 && (
         <Home workouts={workouts} started={activeSession} explore={workout} />
