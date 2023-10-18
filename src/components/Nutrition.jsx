@@ -6,7 +6,7 @@ const Nutrition = () => {
         <h2 className="text-4xl text-center m-6 underline">Section 1: Fundamentals of Nutrition</h2>
   
         <h3 className="text-2xl m-3 text-center"> Macronutrients: Proteins, Carbohydrates, Fats</h3>
-        <div className="border-1 rounded-lg bg-slate-700 w-2/3 p-3 m-auto my-4">
+        <div className="border-1 rounded-lg bg-slate-700 w-5/6 md:w-2/3 p-3 m-auto my-4">
         <p>
           <div className="text-xl text-center mb-3">Proteins</div>
           Proteins are the essential building blocks for muscle growth and overall health.
@@ -28,7 +28,7 @@ const Nutrition = () => {
         </p>
         </div>
   
-        <div className="border-1 rounded-lg bg-slate-700 w-2/3 p-3 m-auto my-4">
+        <div className="border-1 rounded-lg bg-slate-700 w-5/6 md:w-2/3 p-3 m-auto my-4">
         <p>
           <div className="text-xl text-center mb-3">Carbohydrates</div>
           Carbohydrates are the body's primary energy source, especially during strenuous workouts and recovery.
@@ -50,7 +50,7 @@ const Nutrition = () => {
         </p>
         </div>
   
-        <div className="border-1 rounded-lg bg-slate-700 w-2/3 p-3 m-auto my-4">
+        <div className="border-1 rounded-lg bg-slate-700 w-5/6 md:w-2/3 p-3 m-auto my-4">
         <p>
           <div className="text-xl text-center mb-3">Fats</div>
           Healthy fats are essential for overall health and energy balance.
