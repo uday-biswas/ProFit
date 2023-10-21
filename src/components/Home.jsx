@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import successStories from '../json_data/successStories.json';
+import { NavLink } from 'react-router-dom';
 
 const Home = (props) => {
     const response = props.workouts;
@@ -22,11 +23,10 @@ const Home = (props) => {
                 <div className="bg-image"></div>
                 <div className="text-center relative z-10 bg-text">
                     <h1 className="text-4xl font-bold">Achieve Your Dream Physique</h1>
-                    <p className="mt-4 text-lg ">Unlock your potential with our fitness programs and nutrition guides.</p>
-                    <button className="mt-6 px-6 py-2 bg-yellow-500 text-blue-900 font-semibold rounded-full hover:bg-yellow-600 transition duration-300"
-                        onClick={() => props.started(2)}>
+                    <p className="my-4 text-lg ">Unlock your potential with our fitness programs and nutrition guides.</p>
+                    <NavLink to="/training" className="px-6 py-2 bg-yellow-500 text-blue-900 font-bold rounded-full hover:bg-yellow-600 transition duration-300">
                         Get Started
-                    </button>
+                    </NavLink>
                 </div>
             </section>
 
