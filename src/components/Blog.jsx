@@ -5,19 +5,18 @@ import Loader from './Loader';
 
 const Blog = () => {
   const [newsData, setNewsData] = useState([]);
-  const apiKey = '20dabcaf319647bab2bb46f36013a6ef';
   const [loading, setLoading] = useState(true);
 
   const fetchData = async () => {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=${apiKey}`
+        `https://newsdata.io/api/1/news?apikey=pub_31568580c01691006c76e5ac141c3687874cf&q=fitness&language=en&category=food,health`
       );
 
       if (response.ok) {
         const data = await response.json();
-        setNewsData(data.articles);
+        setNewsData(data.results);
       } else {
         console.error('Error fetching data from News API');
       }
@@ -37,7 +36,7 @@ const Blog = () => {
         {loading ? <Loader/> : 
           (<div className="flex flex-wrap justify-center w-4/5 m-auto">
           {newsData.map((article, index) => (
-              article.description !== null && <BlogCard key={index} title={article.title} description={article.description} url={article.url} urlToImage={article.urlToImage}/>
+              article.description !== null && <BlogCard key={index} title={article.title} description={article.content} url={article.link} urlToImage={article.image_url}/>
           ))}
           </div>) 
         }
