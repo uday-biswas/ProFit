@@ -1,8 +1,6 @@
 import './Home.css';
-import { useState } from 'react';
 import WorkOutCards from './WorkOutCards';
 import Footer from './Footer';
-import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -11,8 +9,6 @@ import { NavLink } from 'react-router-dom';
 
 const Home = (props) => {
     const response = props.workouts;
-
-    const notify = () => toast("🦄 Wow so easy!");
 
     return (
         <div className="back">
@@ -55,20 +51,6 @@ const Home = (props) => {
                     ))}
                 </Carousel>
             </section>
-
-            <button onClick={notify}>Notify</button>
-            <ToastContainer
-                position="top-right"
-                autoClose={5000}
-                hideProgressBar={false}
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable
-                pauseOnHover
-                theme="light"
-            />
             <Footer/>
         </div>
     )

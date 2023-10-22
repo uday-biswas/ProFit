@@ -3,6 +3,7 @@ import './Explore.css';
 import { useState } from 'react';
 import DayProgress from './DayProgress';
 import Footer from './Footer';
+import { NavLink } from 'react-router-dom';
 
 const Explore = (props) => {
     
@@ -57,6 +58,9 @@ const Explore = (props) => {
                         </div>
                     </div> 
                     <div className="font-semibold text-3xl m-6 text-white">Day {dayClicked} {label}</div>
+                    {
+                        props.isLoggedIn ? null :
+                        <div className='text-center max-w-fit mx-auto text-white border-[1px] p-[7px] m-6 border-gray-600 rounded-md font-semibold'><NavLink to="/login" className="text-blue-500 font-extrabold text-xl">Sign in</NavLink> to track your progress</div>}
                     <DayProgress exercises={exercises} change={workout_or_day_changed}/>
                     <Footer/>
                 </div>

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FcGoogle } from 'react-icons/fc';
-import { NavLink } from 'react-router-dom';
+import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai';
+import { NavLink, useNavigate } from 'react-router-dom';
+import { toast } from 'react-hot-toast';
 
 const Sign = () => {
     const [formData, setFormData] = useState({
@@ -10,19 +12,25 @@ const Sign = () => {
         password: '',
         confirmPassword: '',
       });
+
+      const [showPassword, setShowPassword] = useState(false);
+      const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+        const navigate = useNavigate();
     
       const handleChange = (event) => {
         const { name, value } = event.target;
         setFormData({ ...formData, [name]: value });
       };
     
-      const handleSubmit = (e) => {
-        e.preventDefault();
-        // Here, you can implement the logic to send the form data to your server for registration.
-        // You might use fetch() or an Axios request to post the data.
-        // Remember to validate and handle errors appropriately.
-    
+      const handleSubmit = (event) => {
+        event.preventDefault();
         console.log('Form data submitted:', formData);
+        if(formData.password !== formData.confirmPassword){
+            toast.error('Password and Confirm Password do not match');
+            return;
+        }
+        toast.success('Account created successfully');
+        navigate('/login');
       };
     
       return (
@@ -78,32 +86,33 @@ const Sign = () => {
               />
             </label>
             <div className='flex flex-col md:flex-row mb-2'>
-            <label className='w-full md:w-[50%] mb-2'>
+            <label className='w-full md:w-[50%] mb-2 relative'>
                Create Password<sup className='text-red-600'> *</sup>
               <input
                 id="password"
                 name="password"
-                type="password"
-                autoComplete="current-password"
+                type= {showPassword ? ("text") : ("password")}
                 required
                 className="rounded-lg w-[95%] md:w-[90%] border border-slate-800 px-3 py-2 placeholder-gray-400 text-gray-100 bg-slate-600 focus:outline-none focus:border-blue-500"
                 placeholder="Create Password"
                 value={formData.password}
                 onChange={handleChange}
               />
+              <span className='absolute right-[15%] top-[38px]' onClick={() => setShowPassword(!showPassword)}>{showPassword ? <AiOutlineEyeInvisible className='scale-[1.4]'/> : <AiOutlineEye className='scale-[1.4]'/>}</span>
             </label>
-            <label className='w-full md:w-[50%] mb-2'>
+            <label className='w-full md:w-[50%] mb-2 relative'>
                Confirm Password<sup className='text-red-600'> *</sup>
               <input
                 id="confirmPassword"
                 name="confirmPassword"
-                type="password"
+                type= {showConfirmPassword ? ("text") : ("password")}
                 required
                 className="rounded-lg w-[95%] md:w-[90%] border border-slate-800 px-3 py-2 placeholder-gray-400 text-gray-100 bg-slate-600 focus:outline-none focus:border-blue-500"
                 placeholder="Confirm Password"
                 value={formData.confirmPassword}
                 onChange={handleChange}
               />
+                <span className='absolute right-[15%] top-[38px]' onClick={() => setShowConfirmPassword(!showConfirmPassword)}>{showConfirmPassword ? <AiOutlineEyeInvisible className='scale-[1.4]'/> : <AiOutlineEye className='scale-[1.4]'/>}</span>
             </label>
             </div>
           <div>
@@ -121,7 +130,7 @@ const Sign = () => {
           </div>
           <div>
             <button
-              type="submit"
+              type="button"
               className="w-[95%] py-2 px-4 mb-2 text-md font-medium rounded-md text-white bg-violet-900 hover:bg-violet-950 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-100"
             >
               <FcGoogle className='scale-[1.5] inline-block mr-4' />Sign up with Google
